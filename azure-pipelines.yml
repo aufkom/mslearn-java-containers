@@ -26,7 +26,7 @@ variables:
 
   stages:
   - stage: Build
-  displayName: Build and publish Java container
+    displayName: Build and publish Java container
   jobs:  
   - job: Build
     displayName: Build
